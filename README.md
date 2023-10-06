@@ -42,3 +42,4 @@
 
 
 ###### Источник: [Яндекс.Практикум](https://practicum.yandex.ru/)
+###### Язык разметки Markdown: [шпаргалка по синтаксису с примерами](https://skillbox.ru/media/code/yazyk-razmetki-markdown-shpargalka-po-sintaksisu-s-primerami/)
