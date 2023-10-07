@@ -74,6 +74,10 @@ graph LR;
   tracked	--	"changes"		--> modified;
 ```
 
+- Команда `git status` всегда подскажет, что происходит с файлом: например, он добавлен в список «на коммит» или ещё вообще не отслеживается, или изменён.
+- `git status` показывает явно следующие состояния файлов: `untracked`, `staged` и `modified`.
+- `git status` подсказывает, какие команды можно выполнить, чтобы поменять состояние файла.
+
 
 ###### Источник: [Яндекс.Практикум](https://practicum.yandex.ru/)
 ###### Язык разметки Markdown: [шпаргалка по синтаксису с примерами](https://skillbox.ru/media/code/yazyk-razmetki-markdown-shpargalka-po-sintaksisu-s-primerami/)
