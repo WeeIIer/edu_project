@@ -63,13 +63,15 @@
 - Статус `modified` означает, что файл был изменён.
 - Большинство файлов в проектах «шагает» по следующему циклу: «изменён» → «добавлен в список на коммит» → «закоммичен» → «изменён» → и так далее.
 
+#### Типичный жизненный цикл файла в Git
+
 ```mermaid
 graph LR;
-  untracked -- "git add" --> staged;
-  staged    -- "???"     --> tracked/comitted;
-
-%% стрелка без текста для примера: 
-  A --> B;
+  untracked 	-- 	"git add" 		--> staged;
+  staged    	-- 	"git commit"     	--> tracked;
+  modified	--	"git add"		--> staged;
+  staged	--	"changes"		--> modified;
+  tracked	--	"changes"		--> modified;
 ```
 
 
