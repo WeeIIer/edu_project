@@ -43,3 +43,5 @@
 
 ###### Источник: [Яндекс.Практикум](https://practicum.yandex.ru/)
 ###### Язык разметки Markdown: [шпаргалка по синтаксису с примерами](https://skillbox.ru/media/code/yazyk-razmetki-markdown-shpargalka-po-sintaksisu-s-primerami/)
+###### Соглашение о коммитах: [Conventional Commits 1.0.0-beta.4](https://www.conventionalcommits.org/ru/v1.0.0-beta.4/)
+###### Формат описания схем: [Mermaid](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/)
